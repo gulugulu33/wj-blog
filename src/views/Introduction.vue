@@ -13,12 +13,6 @@
         >3speech</strong
       >
       <div v-for="(item, index) in SchoolList" class="school">
-        <!-- <span v-if="index === 0">
-          <el-icon><Promotion /></el-icon>
-        </span>
-        <span v-if="index === 1">
-          <el-icon><MoonNight /></el-icon>
-        </span> -->
         {{ item }}
       </div>
       <div class="tab" style="margin-top: 6px">
